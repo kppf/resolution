@@ -20,4 +20,19 @@
 body {
     padding-top: 60px;
     padding-left: 5%;
+    padding-right: 5%;
+}
+
+#frame {
+    border: 1px solid black;
+    text-align:center;
+}
+
+#mydiv {
+    padding-bottom: 60px;
+}
+
+.radio{
+    float:left;
+    width:10%;
 }
