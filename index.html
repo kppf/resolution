@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Resolution</title>
+        <script type='text/javascript' src='js/jquery.js'></script>
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+        <script type='text/javascript' src='js/bootstrap.min.js'></script>
+        <script type='text/javascript' src='js/main.js'></script>
+    </head>
+    <body style='background-color: #eee;'>
+    
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                
+                <a class="brand btn-primary btn-small" style="position:relative;left:70px;color:rgb(255,255,255);" id="title-logo" href="index.php">Resolution</a>
+                <ul class="nav pull-right">
+                    <li><a href="index.php" role="button"><i class="icon-home icon-white"></i> Home</a></li>
+                    <li class="dropdown">
+                        <a data-target="#" role="button" data-toggle="modal" href="#"><i class="icon-download icon-white"></i> Usage Instructions</a>
+                        
+                    </li>
+                    <li>
+                            <a id="feedbackButton" href="#" role="button" data-toggle="modal"><i class="icon-pencil icon-white"></i> Give Feedback / Report Issue</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <form action='javascript:void(0)' id='urlform'>
+            <input style='text-align: center; height: 30px; width: 60%;' type='text' placeholder='Enter the url here' id='url'></input>
+            <input type='submit' class='btn btn-primary' style='text-align:center; height:40px; margin-top:-10px; width: 30%;' value='Go'></input>
+        </form>
+        
+        <label class="checkbox">  
+            <input type="checkbox" id="chk1"> Check me out  
+        </label>
+        
+        <div id="mydiv">
+            <iframe id="frame" src="" width="500" height="300">
+            </iframe>
+        </div>
+    </body>
+</html>
