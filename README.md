@@ -28,3 +28,5 @@ ISSUES
 ------
 
 * The web browser doesn't display full screen normally, so displaying the iframe at full resolution is wrong. Research and get the actual resolutions for all screen resolutions.
+* Some websites send the webpage based on resolution only. So, have a check to know whether same is sent at different resolution also, or not. (OFF TOPIC)
+* What minimum resolution should be specified? Now, 1x1 is not a resolution to view webpgaes :|
