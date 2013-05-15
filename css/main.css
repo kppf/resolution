@@ -30,9 +30,18 @@ body {
 
 #mydiv {
     padding-bottom: 60px;
+    margin-left: -5%;
 }
 
 .radio{
     float:left;
-    width:10%;
+    width:10.8%;
+}
+
+.chk {
+    display: block;
+}
+
+.custom input{
+    width: 25%;
 }
