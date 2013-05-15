@@ -5,15 +5,13 @@ var resolutions = [ [1360,768],[1280,960],
                    ];
 
 $(document).ready(function(){
-    $(":radio").change(function(){
-        if($(this).is(':checked')){
-            $index = $('input[name=radio]:checked').index('input[name=radio]');
-            console.log($index);
-            
+
+    $('.reso .btn').click(function(e){
+        console.log('clicked');
+            $index = $(this).index();
             $('#frame').css({'width':resolutions[$index][0], 'height':resolutions[$index][1]});
-        }
     });
-    
+
     $('#urlform').submit(function(e){
         $("#frame").attr("src", geturl());
         $('#url').val(geturl());
