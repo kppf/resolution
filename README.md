@@ -16,15 +16,15 @@ For issues and queries, use gthub issue tracker or mail me at [kushagra.pandey@p
 TODO's
 ------
 
-# Make the iframe size changable by the mouse pointer -- simlar to a textarea.
-# Improve the Read ME.
-# Make the app responsive itself.
-# Add script to display a message when the url prevents itself from being displayed in iframes -- google, facebook etc.
-# Add a dropdown to select from in the URL text field. This should be like the one in godaddy.com, but should show prefix instead of postfix.
-# Add 'Fork On Github' ribbon.
-# Add a div for advertisement.
+* Make the iframe size changable by the mouse pointer -- simlar to a textarea.
+* Improve the Read ME.
+* Make the app responsive itself.
+* Add script to display a message when the url prevents itself from being displayed in iframes -- google, facebook etc.
+* Add a dropdown to select from in the URL text field. This should be like the one in godaddy.com, but should show prefix instead of postfix.
+* Add 'Fork On Github' ribbon.
+* Add a div for advertisement.
 
 ISSUES
 ------
 
-# The web browser doesn't display full screen normally, so displaying the iframe at full resolution is wrong. Research and get the actual resolutions for all screen resolutions.
+* The web browser doesn't display full screen normally, so displaying the iframe at full resolution is wrong. Research and get the actual resolutions for all screen resolutions.
